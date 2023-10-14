@@ -8,3 +8,5 @@
     php artisan route:list
 
     git clone https://github.com/MarcoGomesr/laravel-validation-en-espanol.git resources/lang
+
+    php artisan make:component link
