@@ -1,9 +1,11 @@
 # Comandos:
 
+### Creación y configuración del proyecto.
+
     composer create-project laravel/laravel trabajosunach
     composer require laravel/breeze --dev
     php artisan breeze:install
-    http://trabajosunach.test/
+
     php artisan list
     php artisan route:list
 
@@ -11,4 +13,16 @@
 
     php artisan make:component link
 
-    https://gist.github.com/reanim8ed/601e8a229fdad9a6c0c78f2415217389
+### Enlaces.
+
+1.  Página principal.
+
+        http://trabajosunach.test/
+
+2.  Herramienta de testeo de emails.
+
+        http://mailhog:8025/
+
+Nota: Para implementar mailhog en Laragon, requerirás configurarlo de esta manera:
+
+    https://pen-y-fan.github.io/2023/01/04/how-to-set-up-laragon-on-a-new-windows-computer-part-5/#download-mailhog
