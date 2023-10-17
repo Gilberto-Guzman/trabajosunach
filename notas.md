@@ -12,6 +12,12 @@
     git clone https://github.com/MarcoGomesr/laravel-validation-en-espanol.git resources/lang
 
     php artisan make:component link
+    php artisan make:migration add_rol_to_users_table
+    php artisan migrate
+
+    php artisan make:controller VacanteController -r
+    php artisan make:model Vacante
+    php artisan make:migration create_vacante_table --create=vacantes
 
 ### Enlaces.
 
