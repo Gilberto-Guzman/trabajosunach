@@ -19,6 +19,10 @@
     php artisan make:model Vacante
     php artisan make:migration create_vacante_table --create=vacantes
 
+    composer require livewire/livewire
+
+    php artisan make:livewire CrearVacante
+
 ### Enlaces.
 
 1.  Página principal.
