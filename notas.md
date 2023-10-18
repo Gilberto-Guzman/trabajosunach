@@ -22,6 +22,12 @@
     composer require livewire/livewire
 
     php artisan make:livewire CrearVacante
+    php artisan make:seeder SalarioSeeder
+    php artisan make:migration create_salarios_table
+    php artisan migrate
+
+    /*Los seeders se utilizan para manjear datos no dinamicos*/
+    php artisan db:seed
 
 ### Enlaces.
 
