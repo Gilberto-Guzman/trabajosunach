@@ -41,6 +41,8 @@
     php artisan db:seed
     php artisan make:model Categoria
 
+    php artisan make:livewire MostrarAlerta
+
 ### Enlaces.
 
 1.  Página principal.
