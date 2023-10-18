@@ -30,6 +30,17 @@
     php artisan db:seed
     php artisan make:model Salario
 
+    php artisan make:seeder CategoriasSeeder
+    php artisan make:migration create_categorias_table
+
+    php artisan migrate
+    php artisan db:seed
+    php artisan migrate:rollback
+    php artisan migrate:rollback
+    php artisan migrate
+    php artisan db:seed
+    php artisan make:model Categoria
+
 ### Enlaces.
 
 1.  Página principal.
