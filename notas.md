@@ -28,6 +28,7 @@
 
     /*Los seeders se utilizan para manjear datos no dinamicos*/
     php artisan db:seed
+    php artisan make:model Salario
 
 ### Enlaces.
 
