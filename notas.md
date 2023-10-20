@@ -43,6 +43,21 @@
 
     php artisan make:livewire MostrarAlerta
 
+    php artisan migrate
+    php artisan migrate:rollback
+    php artisan migrate
+
+    php artisan migrate:rollback
+    php artisan migrate
+
+    php artisan migrate:rollback
+    php artisan migrate
+    php artisan db:seed
+
+    php artisan make:migration add_columns_to_vacantes_table
+
+    php artisan migrate
+
 ### Enlaces.
 
 1.  Página principal.
