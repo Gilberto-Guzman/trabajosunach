@@ -58,6 +58,9 @@
 
     php artisan migrate
 
+    php artisan make:livewire MostrarVacantes
+    php artisan vendor:publish --tag=laravel-pagination
+
 ### Enlaces.
 
 1.  Página principal.
