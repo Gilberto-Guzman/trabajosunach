@@ -1,6 +1,6 @@
-{{-- Be like water. --}}
+{{-- The best athlete wants his opponent at his best. --}}
 
-<form class="md:w-1/2 space-y-5" wire:submit.prevent='crearVacante'>
+<form class="md:w-1/2 space-y-5" wire:submit.prevent='editarVacante'>
     <div>
         <x-input-label for="titulo" :value="__('Titulo Vacante')" />
 
@@ -86,23 +86,30 @@
 
     <div>
         <x-input-label for="imagen" :value="__('Imagen')" />
-        <x-text-input id="imagen" class="block mt-1 w-full" type="file" wire:model="imagen" accept="image/*" />
+        <x-text-input id="imagen" class="block mt-1 w-full" type="file" wire:model="imagen_nueva"
+            accept="image/*" />
 
         <div class="my-5 w-80">
-            @if ($imagen)
-                Imagen:
-                <img src="{{ $imagen->temporaryUrl() }}">
+            <x-input-label :value="__('Imagen Actual')" />
+            {{-- <img src="{{ asset('storage/vacantes/' . $imagen) }}" alt="{{ 'Imagen Vacante ' . $Titulo }}"> --}}
+            <img src="{{ asset('storage/vacantes') . '/' . $imagen }}" alt="Imagen vacante {{ $titulo }}">
+        </div>
+
+        <div class="my-5 w-80">
+            @if ($imagen_nueva)
+                Imagen Nueva:
+                <img src="{{ $imagen_nueva->temporaryUrl() }}">
             @endif
         </div>
 
-        @error('imagen')
+        @error('imagen_nueva')
             <livewire:mostrar-alerta :message="$message" />
         @enderror
 
     </div>
 
     <x-primary-button class="w-full justify-center">
-        {{ __('Crear Vacante') }}
+        {{ __('Guardar Cambios') }}
     </x-primary-button>
 
 </form>

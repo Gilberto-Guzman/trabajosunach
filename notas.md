@@ -61,6 +61,11 @@
     php artisan make:livewire MostrarVacantes
     php artisan vendor:publish --tag=laravel-pagination
 
+    php artisan make:livewire EditarVacante
+    php artisan storage:link
+
+    php artisan make:policy VacantePolicy --model=Vacante
+
 ### Enlaces.
 
 1.  Página principal.
