@@ -65,6 +65,8 @@
     php artisan storage:link
 
     php artisan make:policy VacantePolicy --model=Vacante
+    npm install sweetalert2
+    npm install sass
 
 ### Enlaces.
 
@@ -79,3 +81,24 @@
 Nota: Para implementar mailhog en Laragon, requerirás configurarlo de esta manera:
 
     https://pen-y-fan.github.io/2023/01/04/how-to-set-up-laragon-on-a-new-windows-computer-part-5/#download-mailhog
+
+### Extra
+
+Les explico como descargar sweetAlert2 por medio del npm y su configuración, bueno al menos la forma que me funcionó.
+
+1. Ejecutar el comando: npm install sweetalert2
+
+2. Importar el scss y js en tu archvi app.js:
+
+import Swal from 'sweetalert2/dist/sweetalert2.js'
+
+import 'sweetalert2/src/sweetalert2.scss'
+
+3. En la documentación de sweetAlert no viene, pero hay que poner el siguiente código en el app.js
+
+window.Swal =Swal;
+Swal.start(); 4. Si les marca error en los estilos sass de sweetAlert (al menos a mí me sucedió), tendrán que instalar sass
+
+npm install sass --dev
+
+Y eso sería todo, al menos esos fueron los pasos que seguí para que me funcionará
