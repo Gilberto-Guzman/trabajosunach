@@ -20,7 +20,7 @@
 
 </center>
 
-![](logounach.png)
+<img src="logounach.png" width="200">
 
 # Informe.
 
