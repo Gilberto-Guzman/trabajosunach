@@ -68,6 +68,8 @@
     npm install sweetalert2
     npm install sass
 
+    php artisan make:livewire MostrarVacante
+
 ### Enlaces.
 
 1.  Página principal.
