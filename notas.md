@@ -70,6 +70,8 @@
 
     php artisan make:livewire MostrarVacante
 
+    php artisan make:livewire PostularVacante
+
 ### Enlaces.
 
 1.  Página principal.
