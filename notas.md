@@ -81,10 +81,19 @@
 2.  Herramienta de testeo de emails.
 
         http://mailhog:8025/
+        http://localhost:8025/
 
 Nota: Para implementar mailhog en Laragon, requerirás configurarlo de esta manera:
 
     https://pen-y-fan.github.io/2023/01/04/how-to-set-up-laragon-on-a-new-windows-computer-part-5/#download-mailhog
+
+### Error Storage link
+
+En resumen hay que entrar a public y eliminar stoagre, luego ejecutar de nuevo php artisan storage:link
+
+    https://stackoverflow.com/questions/49489549/laravel-app-storage-images-failed-to-load-and-redirect-to-404
+
+
 
 ### Extra
 
