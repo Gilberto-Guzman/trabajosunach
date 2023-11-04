@@ -81,6 +81,8 @@
     php artisan notifications:table
     php artisan migrate
 
+    php artisan make:controller NotificacionController --invokable
+
 ### Enlaces.
 
 1.  Página principal.

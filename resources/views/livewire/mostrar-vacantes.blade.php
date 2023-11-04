@@ -25,8 +25,10 @@
                         class="bg-red-600 py-2 px-4 rounded-lg text-white text-xs font-bold uppercase text-center">
                         Eliminar
                     </button> --}}
+                    {{-- <button wire:click="$dispatch('mostrarAlerta', {{ $vacante->id }})"
+                        class="text-center bg-red-500 py-2 px-4 rounded-lg text-white text-xs font-bold">Eliminar</button> --}}
                     <button wire:click="$dispatch('mostrarAlerta', {{ $vacante->id }})"
-                        class="text-center bg-red-500 py-2 px-4 rounded-lg text-white text-xs font-bold">Eliminar</button>
+                        class="bg-red-500 py-2 px-4 rounded-lg text-white text-xs font-bold uppercase text-center">Eliminar</button>
                 </div>
             </div>
         @empty
