@@ -72,6 +72,13 @@
 
     php artisan make:livewire PostularVacante
 
+    php artisan make:migration create_candidatos_table
+    php artisan make:controller CandidatoController --model=Candidato
+
+    php artisan migrate
+
+    
+
 ### Enlaces.
 
 1.  Página principal.
