@@ -77,7 +77,9 @@
 
     php artisan migrate
 
-    
+    php artisan make:notification NuevoCandidato
+    php artisan notifications:table
+    php artisan migrate
 
 ### Enlaces.
 
