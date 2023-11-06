@@ -83,6 +83,8 @@
 
     php artisan make:controller NotificacionController --invokable
 
+    php artisan make:middleware RolUsuario
+
 ### Enlaces.
 
 1.  Página principal.
