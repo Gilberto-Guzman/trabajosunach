@@ -85,6 +85,11 @@
 
     php artisan make:middleware RolUsuario
 
+    php artisan make:controller HomeController --invokable
+    php artisan make:livewire HomeVacantes
+
+    php artisan make:livewire FiltrarVacantes
+
 ### Enlaces.
 
 1.  Página principal.
