@@ -90,6 +90,7 @@
 
     php artisan make:livewire FiltrarVacantes
 
+    php artisan migrate:refresh
 ### Enlaces.
 
 1.  Página principal.
