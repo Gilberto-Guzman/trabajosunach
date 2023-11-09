@@ -134,3 +134,13 @@ Swal.start(); 4. Si les marca error en los estilos sass de sweetAlert (al menos 
 npm install sass --dev
 
 Y eso sería todo, al menos esos fueron los pasos que seguí para que me funcionará
+
+
+
+### Digital Ocean
+
+    php artisan key:generate --show
+    base64:jTf5GK4X1VmgUuZxOodYJU0xugyZ611J6w9GEdjnseY=
+
+    php artisan migrate
+    php artisan db:seed
