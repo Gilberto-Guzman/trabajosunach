@@ -1,57 +1,48 @@
-<center>
+# Universidad Autónoma de Chiapas
 
-# Universidad Autónoma De Chiapas
+## Proyecto Final: Desarrollo de Aplicaciones Web y Móviles
 
-## Projecto Final: Desarrollo De Aplicaciones Web Y Moviles.
-
-### **Catedrático:** DR. JORGE HUMBERTO RUIZ OVALLE
+### **Catedrático:** Dr. Jorge Humberto Ruiz Ovalle
 
 ### **Integrantes del equipo**
 
-#### - José Gilberto Guzmán Gutiérrez.
+- José Gilberto Guzmán Gutiérrez
+- Jaci Annet Lucas Eulogio
+- Cedrick Marcial Quintero
+- Luis Gerardo Mendoza Gómez
 
-#### - Jaci Annet Lucas Eulogio.
+Tuxtla Gutiérrez, Chiapas. 21 de octubre de 2023.
 
-#### - Cedrick Marcial Quintero.
+<center><img src="logounach.png" width="200"></center>
 
-#### - Luis Gerardo Mendoza Gómez.
+# Informe
 
-#### Tuxtla Gutiérrez Chiapas. 21 de octubre del 2023.
+Para la realización de este trabajo, se nos solicita utilizar un método sistemático para la redacción de este documento. Por ende, y por su naturaleza, partiremos del método científico, adaptándolo a nuestro contexto actual.
 
-</center>
+### 1. Observación
 
-<img src="logounach.png" width="200">
+Actualmente, en carreras relacionadas con la tecnología, gran parte de la comunidad universitaria busca obtener trabajo a través de internet. Si bien ya existen algunas alternativas de carácter general, como Linkedin, no hay ninguna adaptada a las características específicas de nuestra universidad. A partir de esta premisa, se pretende desarrollar una aplicación web que conecte a los estudiantes y egresados con unidades receptoras relacionadas con nuestra universidad, facilitando así la obtención de su primer empleo. Además, se planea desarrollar un área en la cual nuestra comunidad pueda visualizar novedades referentes a la Feria Nacional Anual de Empleo de la UNACH.
 
-# Informe.
+### 2. Pregunta de investigación
 
-Para la realización de este trabajo se nos solicita que utilizenmos un metodo sistematico para la redacción de este documento, por ende y por su naturaleza, partiremos del metodo cientifico, este, adaptandolo a nuestro contexto actual.
+Se nos propone desarrollar una red social para la plataforma web, la cual tenga como función cubrir alguna necesidad, ya sea general o específica. Es de ahí donde nos cuestionamos: ¿Cuál es nuestro público? ¿Cuál será la funcionalidad de nuestra aplicación web? ¿Qué herramientas necesitaremos para su desarrollo? entre otras cosas.
 
-### 1. Observación.
+### 3. Hipótesis
 
-Actualmente, en carreras relacionadas con la tecnologia, gran parte de la comunidad universitaria busca obtener trabajo a travez de internet, y si bien, ya existen algunas alternativas de caracter general como lo que es Linkedin, no hay ninguna adaptada a las caracterisiticas especificas de nuestra universidad. A partir de esta premisa, se pretende desarrollar una aplicación web la cual conecte a los estudiantes y egresados con unidades receptoras que tengan relación con nuestra universidad, facilitando así la obtención de su primer empleo. Ademas, se planea desarrollar un area en la cual nuestra comunidad pueda vizualizar novedades referentes a la Feria Nacional Anual de Empleo de la UNACH.
+Se estima que nuestra aplicación sea utilizada únicamente por la comunidad estudiantil y las unidades receptoras relacionadas con la UNACH. Sin embargo, estamos abiertos a cambios o expansiones de la aplicación a futuro (Ej: Medicina, Lenguas, Arquitectura, etc.).
 
-### 2. Pregunta de investigación.
+### 4. Diseño experimental o de investigación
 
-Se nos propone desarrollar una red social para la plataforma web, la cual tenga como función cubrir alguna necesidad, ya sea general u especifica. Es de ahi en donde nos cuestionamos ¿Cual es nuestro publico? ¿Cual sera la funcionalidad de nuestra aplicación web? ¿Qué herramientas necesitaremos para su desarrollo? entre otras cosas.
+Para el desarrollo de esta aplicación, estaremos utilizando la última versión de Laravel para el backend y Tailwind para el frontend. Esto con el objetivo de generar rápidamente una aplicación que cumpla con los estándares más nuevos en cuanto se refiere a ciberseguridad y diseño.
 
-### 3. Hipótesis.
+Nota: Es posible que durante el transcurso estemos agregando herramientas o plugins adicionales según las problemáticas y necesidades que encontremos en el camino.
 
-Se estima, que nuestra aplicación sea utlizado unicamente por la comunidad estudiantil y las unidades receptoras relacionadas con la UNACH, sin embargo estamos abiertos a cambios u expansiones de la aplicación a futuro (Ej: Medicina, Lenguas, Arquitectura etc).
+### 5. Recopilación y análisis de datos
 
-### 4. Diseño experimental o de investigación.
+Posterior a la evaluación, se nos comentaron los siguientes aspectos a mejorar: un sistema de tags para un mejor filtrado de datos, implementar un método de negocio (ej: cobrarle un porcentaje de su primer sueldo al usuario en caso de que este obtenga un trabajo), así como también se nos comentó que próximamente adaptaremos el formato para su exposición en la feria de emprendimiento UNACH, ya que actualmente la institución aún no cuenta con una plataforma en línea que gestione y automatice la bolsa de trabajo de la universidad.
 
-Para el desarrollo de esta aplicación estaremos utilizando la ultima versión de laravel para el backend y tailwind para el frontend. Esto con el objetivo de generar rapidamente una aplicación que cumpla con los estandares mas nuevos en cuanto se refiere a ciberseguridad y diseño.
+### 6. Conclusiones
 
-Nota: Es posible que en el trancurso estemos agregando herramientas o plugins adicionales segun las problematicas y necesidades que encontremos en el camino.
+Gracias a la realización de este proyecto integrador, pudimos aprender un nuevo marco de trabajo como Laravel en la materia de desarrollo web y móvil, así como también manejar nuestro propio servidor de manera segura mediante la materia de vulnerabilidades y seguridad en cómputo.
 
-### --- Estos pasos los obtendremos porsterior al despliegue de nuestra aplicación ---
-
-### 5. Recopilación de datos.
-
-### 6. Análisis de datos.
-
-### 7. Conclusiones.
-
-### 8. Comunicación de resultados.
-
-### 9. Repetición y revisión.
+Además de ello, nos han dado una retroalimentación suficiente para poder seguir mejorando nuestra aplicación a corto y mediano plazo.
