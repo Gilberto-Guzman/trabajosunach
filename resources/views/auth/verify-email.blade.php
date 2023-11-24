@@ -1,3 +1,4 @@
+
 <x-guest-layout>
     <div class="mb-4 text-sm text-gray-600 dark:text-gray-400">
         {{ __('Gracias por registrarte! Antes de comenzar, ¿podría verificar su dirección de correo electrónico haciendo clic en el enlace que le acabamos de enviar por correo electrónico? Si no recibió el correo electrónico, con gusto le enviaremos otro.') }}
